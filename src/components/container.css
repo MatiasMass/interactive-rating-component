@@ -1,0 +1,32 @@
+.container{
+    width: 20%;
+    margin: 15vh auto;
+    background-color: hsl(213, 19%, 18%);;
+    /* height: 100px; */
+    padding: 50px ;
+    border-radius: 10px;
+}
+
+.container .icon{
+    display: inline;
+    background-color: hsl(213, 14%, 27%);
+    padding: 8px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.container .title{
+    color: #fff;
+    font-weight: 700;
+}
+
+.container .paragraph{
+    text-align: justify;
+    font-weight: 400;
+    color: hsl(217, 12%, 63%);
+}
+
+.circles {
+    display: flex;
+    justify-content: space-around;
+}
